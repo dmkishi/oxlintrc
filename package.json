@@ -1,0 +1,21 @@
+{
+  "name": "@dmkishi/oxlintrc",
+  "version": "0.0.0",
+  "description": "DM Kishi's custom oxlint config file",
+  "license": "MIT",
+  "author": "DM Kishi <dm.kishi@gmail.com>",
+  "files": [
+    "oxlintrc.json"
+  ],
+  "scripts": {
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@dmkishi/markdownlint-cli2.yaml": "^0.0.3",
+    "husky": "^9.1.7",
+    "oxlint": "^1.62.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
