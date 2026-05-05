@@ -3,7 +3,7 @@
   "plugins": [
     "typescript",
     "unicorn",
-    "oxc"
+    "oxc",
   ],
 
   /**
@@ -24,7 +24,7 @@
     "correctness": "error",
     "suspicious": "error",
     "pedantic": "warn",
-    "style": "warn"
+    "style": "warn",
   },
 
   /**
@@ -60,9 +60,9 @@
     /* Perf */
     "no-useless-call": "error",
     "unicorn/prefer-array-find": "error",
-    "unicorn/prefer-array-flat-map": "error"
+    "unicorn/prefer-array-flat-map": "error",
   },
   "env": {
-    "builtin": true // Support built-in globals (console, setTimeout, etc.)
-  }
+    "builtin": true, // Support built-in globals (console, setTimeout, etc.)
+  },
 }
