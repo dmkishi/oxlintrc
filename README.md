@@ -23,6 +23,17 @@ touch .oxlintrc.json
 }
 ```
 
+Develop
+--------------------------------------------------------------------------------
+### Validation
+The validation script `pnpm validate` provides basic validation of the config
+file using Oxlint itself to load, parse, and resolve the config file. It errors
+on malformed JSON and schema violations including wrong types, rule-name
+mistakes, bad category names.
+
+**Note**: Oxlint writes errors to stdout, not stderr, so outputs are captured
+and printed only on error.
+
 Changelog
 --------------------------------------------------------------------------------
 ### v0.0.0 (2026-5-4)
