@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "validate": "out=$(oxlint -c .oxlintrc.json --print-config 2>&1) || { echo \"$out\" >&2; exit 1; }",
+    "prepublishOnly": "sh .husky/pre-push",
     "prepare": "husky"
   },
   "devDependencies": {
