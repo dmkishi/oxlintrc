@@ -37,5 +37,14 @@ and printed only on error.
 
 Changelog
 --------------------------------------------------------------------------------
+### v0.0.1 (2026-5-5)
+- Fix incorrect path to config file in `package.json`.
+- Restore hanging commas in config file.
+- Add validation:
+  - Add validation script.
+  - Add validation script to Husky script.
+  - Run Husky script on publish.
+- Etc.
+
 ### v0.0.0 (2026-5-4)
 - Initial release.
