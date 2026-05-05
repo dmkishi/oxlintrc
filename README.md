@@ -5,10 +5,11 @@ DM Kishi's custom oxlint config file.
 Install
 --------------------------------------------------------------------------------
 ```sh
-pnpm add --save-dev oxlint oxlint-tsgolint @dmkishi/oxlintrc
+pnpm add --save-dev @dmkishi/oxlintrc oxlint oxlint-tsgolint
 touch .oxlintrc.json
 ```
 
+### .oxlintrc.json
 ```json
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
