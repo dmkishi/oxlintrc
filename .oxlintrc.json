@@ -37,6 +37,11 @@
     "max-lines": "off",
     "max-lines-per-function": "off",
     "no-inline-comments": "off", // Agree but flags syntax hints.
+    "typescript/prefer-readonly-parameter-types": [
+      "error",
+      // Typings are mutable by default.
+      { "allow": ["AbortSignal"] }
+    ],
 
     /* Style */
     "capitalized-comments": "off", // Agree but cannot detect consecutive lines.
