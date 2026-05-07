@@ -36,7 +36,7 @@
     "max-classes-per-file": "off",
     "max-lines": "off",
     "max-lines-per-function": "off",
-    "no-inline-comments": "off", // Agree but flags syntax hints
+    "no-inline-comments": "off", // Agree but flags syntax hints.
 
     /* Style */
     "capitalized-comments": "off", // Agree but cannot detect consecutive lines.
@@ -55,7 +55,10 @@
     "sort-keys": "off", // Disagree on sort order.
     "unicorn/filename-case": "off", // Flags "node:child_process"
     "unicorn/no-await-expression-member": "off",
-    "unicorn/numeric-separators-style": ["error", { "number": { "minimumDigits": 4 } }],
+    "unicorn/numeric-separators-style": [
+      "error",
+      { "number": { "minimumDigits": 4 } }
+    ],
 
     /* Perf */
     "no-useless-call": "error",
