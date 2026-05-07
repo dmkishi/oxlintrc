@@ -1,6 +1,6 @@
 {
   "name": "@dmkishi/oxlintrc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "DM Kishi's custom oxlint config file",
   "license": "MIT",
   "author": "DM Kishi <dm.kishi@gmail.com>",

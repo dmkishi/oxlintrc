@@ -37,6 +37,10 @@ and printed only on error.
 
 Changelog
 --------------------------------------------------------------------------------
+### v0.1.0 (2026-5-7)
+- Add rule for `AbortSignal`.
+- Improve styles.
+
 ### v0.0.1 (2026-5-5)
 - Fix incorrect path to config file in `package.json`.
 - Restore hanging commas in config file.
