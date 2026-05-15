@@ -40,7 +40,12 @@
     "typescript/prefer-readonly-parameter-types": [
       "error",
       // Typings are mutable by default.
-      { "allow": ["AbortSignal"] }
+      {
+        "allow": [
+          "AbortSignal",
+          "Response",
+        ],
+      }
     ],
 
     /* Style */
