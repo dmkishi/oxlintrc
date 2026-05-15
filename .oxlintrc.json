@@ -46,11 +46,20 @@
        * limitations, you might need to use the rule's options. In particular,
        * the `allow` option can explicitly mark a type as readonly."
        * <https://typescript-eslint.io/rules/prefer-readonly-parameter-types/#when-not-to-use-it>
+       *
+       * NOTE: `allow` accepts plain string names or object specifiers. Prefer
+       * strings: object specifiers like `{ "from": "lib" }` match a type's
+       * declaration site, and `from: "lib"` matches only TypeScript's built-in
+       * `lib.*.d.ts`. `AbortSignal` and `Response` are web globals. In a Node
+       * project without the `DOM` lib they come from `@types/node`, so that
+       * `from: "lib"` won't match and the rule keeps firing. Strings match by
+       * name, so the allowlist holds regardless of whether a type originates in
+       * `lib`, `@types/node`, or a package.
        */
       {
         "allow": [
-          { "from": "lib", "name": "AbortSignal" },
-          { "from": "lib", "name": "Response" },
+          "AbortSignal",
+          "Response",
         ],
       }
     ],
