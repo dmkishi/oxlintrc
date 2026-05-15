@@ -37,8 +37,12 @@ and printed only on error.
 
 Changelog
 --------------------------------------------------------------------------------
+### v0.2.0 (2026-5-15)
+- Add `Response` as exception to `typescript/prefer-readonly-parameter-types`.
+- Update dep: `oxlint`.
+
 ### v0.1.0 (2026-5-7)
-- Add rule for `AbortSignal`.
+- Add `AbortSignal` as exception to `typescript/prefer-readonly-parameter-types`.
 - Improve styles.
 
 ### v0.0.1 (2026-5-5)
