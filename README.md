@@ -37,6 +37,9 @@ and printed only on error.
 
 Changelog
 --------------------------------------------------------------------------------
+### v0.2.1 (2026-5-15)
+- Fix `prefer-readonly-parameter-types` allowlist with comment-explanation.
+
 ### v0.2.0 (2026-5-15)
 - Add `Response` as exception to `typescript/prefer-readonly-parameter-types`.
 - Update dep: `oxlint`.
