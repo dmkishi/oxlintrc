@@ -37,6 +37,12 @@ and printed only on error.
 
 Changelog
 --------------------------------------------------------------------------------
+### v0.3.0 (2026-5-19)
+- Disable `typescript/prefer-readonly-parameter-types`. Agree in theory but too
+  noisy. Too many legitimate readonly types are flagged as mutable due to the
+  rule's strict internal model, e.g. `HTMLElement`, `Date`, `AbortSignal`, etc.
+  Disables the rule rather than maintaining an ever-growing allowlist.
+
 ### v0.2.1 (2026-5-15)
 - Fix `prefer-readonly-parameter-types` allowlist with comment-explanation.
 
