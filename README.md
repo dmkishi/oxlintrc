@@ -4,12 +4,13 @@ DM Kishi's custom oxlint config file.
 
 Install
 --------------------------------------------------------------------------------
+### Add packages
 ```sh
 pnpm add --save-dev @dmkishi/oxlintrc oxlint oxlint-tsgolint
-touch .oxlintrc.json
 ```
 
-### .oxlintrc.json
+### Add `.oxlintrc.json`
+Create `.oxlintrc.json` and copy in below.
 ```json
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
@@ -23,6 +24,13 @@ touch .oxlintrc.json
   }
 }
 ```
+
+### Add lint command to `package.json`
+```json
+"lint": "oxlint"
+```
+
+Run it: `pnpm lint`
 
 Develop
 --------------------------------------------------------------------------------
