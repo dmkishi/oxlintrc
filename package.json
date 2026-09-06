@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "husky": "^9.1.7",
-    "oxlint": "^1.65.0"
+    "oxlint": "^1.81.0"
   },
   "publishConfig": {
     "access": "public"
