@@ -13,7 +13,6 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@dmkishi/markdownlint-cli2.yaml": "^0.0.3",
     "husky": "^9.1.7",
     "oxlint": "^1.65.0"
   },

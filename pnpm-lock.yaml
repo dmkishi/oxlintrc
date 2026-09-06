@@ -8,9 +8,6 @@ importers:
 
   .:
     devDependencies:
-      '@dmkishi/markdownlint-cli2.yaml':
-        specifier: ^0.0.3
-        version: 0.0.3
       husky:
         specifier: ^9.1.7
         version: 9.1.7
@@ -19,10 +16,6 @@ importers:
         version: 1.65.0
 
 packages:
-
-  '@dmkishi/markdownlint-cli2.yaml@0.0.3':
-    resolution: {integrity: sha512-bTR3JrspskfhacWKc5i+rC15nyoiFXqs6PFjgCArATketRdJ6xUatFHSdVafi6Ws3lHjVcXEMAKTFoVs+nmlXQ==}
-    hasBin: true
 
   '@oxlint/binding-android-arm-eabi@1.65.0':
     resolution: {integrity: sha512-jDVaGNURT5pEA9qcabh6WusIoBNybOMMDPCx+EFt+gxo6rVvoUf0+73Xy5x81+ZrxU+ewk5uRBYifjy5pgkcnA==}
@@ -154,8 +147,6 @@ packages:
         optional: true
 
 snapshots:
-
-  '@dmkishi/markdownlint-cli2.yaml@0.0.3': {}
 
   '@oxlint/binding-android-arm-eabi@1.65.0':
     optional: true
