@@ -50,16 +50,19 @@
     "no-continue": "off", // Agree but prefer "returning" early.
     "no-magic-numbers": "off", // Agree but too cumbersome.
     "no-ternary": "off",
+    "one-var": "off", // Disagree.
     "prefer-destructuring": "off",
     "prefer-template": "off",
     "sort-imports": "off", // Disagree on sort order.
     "sort-keys": "off", // Disagree on sort order.
     "unicorn/filename-case": "off", // Flags "node:child_process"
     "unicorn/no-await-expression-member": "off",
+    // "unicorn/no-null": "off", // Agree but noisy. Add on per project basis.
     "unicorn/numeric-separators-style": [
       "error",
       { "number": { "minimumDigits": 4 } }
     ],
+    "unicorn/switch-case-braces": ["error", "avoid"],
 
     /* Perf */
     "no-useless-call": "error",
