@@ -17,6 +17,9 @@ Create `.oxlintrc.json` and copy in below.
   "extends": ["./node_modules/@dmkishi/oxlintrc/.oxlintrc.json"],
   "rules": {
     // Local overrides
+    /* Pedantic ************************************************************* */
+    /* Style **************************************************************** */
+    /* Perf ***************************************************************** */
   },
   "options": {
     "typeAware": true, // Enable rules that require type information
