@@ -48,6 +48,10 @@ and printed only on error.
 
 Changelog
 --------------------------------------------------------------------------------
+### v0.4.0 (2026-9-6)
+- Add rules.
+- Etc.: Improve README and update deps.
+
 ### v0.3.0 (2026-5-19)
 - Disable `typescript/prefer-readonly-parameter-types`. Agree in theory but too
   noisy. Too many legitimate readonly types are flagged as mutable due to the
